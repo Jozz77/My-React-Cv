@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-React-Cv/static/css/main.aa0cb18f.css",
+    "main.css": "/My-React-Cv/static/css/main.70dc34a3.css",
     "main.js": "/My-React-Cv/static/js/main.f80f2db5.js",
     "static/media/IMG-20210822-WA0036.jpg": "/My-React-Cv/static/media/IMG-20210822-WA0036.a560003aa30e3ef0dc20.jpg",
     "static/media/wordpress.svg": "/My-React-Cv/static/media/wordpress.8b401d54421c03ce5c0b31bfa274056e.svg",
@@ -15,11 +15,11 @@
     "index.html": "/My-React-Cv/index.html",
     "static/media/Html.svg": "/My-React-Cv/static/media/Html.5f3c5eb7dd0a48848c3c66c6552079c2.svg",
     "static/media/microsoft.svg": "/My-React-Cv/static/media/microsoft.deb36ec65c2cbaaa66352edab00a358c.svg",
-    "main.aa0cb18f.css.map": "/My-React-Cv/static/css/main.aa0cb18f.css.map",
+    "main.70dc34a3.css.map": "/My-React-Cv/static/css/main.70dc34a3.css.map",
     "main.f80f2db5.js.map": "/My-React-Cv/static/js/main.f80f2db5.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa0cb18f.css",
+    "static/css/main.70dc34a3.css",
     "static/js/main.f80f2db5.js"
   ]
 }
