@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My-React-Cv/static/css/main.aa0cb18f.css",
+    "main.js": "/My-React-Cv/static/js/main.f80f2db5.js",
+    "static/media/IMG-20210822-WA0036.jpg": "/My-React-Cv/static/media/IMG-20210822-WA0036.a560003aa30e3ef0dc20.jpg",
+    "static/media/wordpress.svg": "/My-React-Cv/static/media/wordpress.8b401d54421c03ce5c0b31bfa274056e.svg",
+    "static/media/Call.svg": "/My-React-Cv/static/media/Call.11274b36607bfb26be23d3d2afa158f1.svg",
+    "static/media/Message-top.svg": "/My-React-Cv/static/media/Message-top.e6b132b01f49d4f6748296c34456b4a9.svg",
+    "static/media/twitter.svg": "/My-React-Cv/static/media/twitter.9904b5db9ee8d2e3a6e8e1d673d859ce.svg",
+    "static/media/twitter2.svg": "/My-React-Cv/static/media/twitter2.63589420020e028e3c54b6dbf83f671b.svg",
+    "static/media/javascript.svg": "/My-React-Cv/static/media/javascript.327e9e4d2e82c1468beb3a2cf682d234.svg",
+    "static/media/linkedin.svg": "/My-React-Cv/static/media/linkedin.9eafbd429f942074a6c3d1c052233eb7.svg",
+    "static/media/linkedin 2.svg": "/My-React-Cv/static/media/linkedin 2.5147c6a00312e7689b779126932e3c8a.svg",
+    "static/media/message.svg": "/My-React-Cv/static/media/message.29c4b48d8ad7df2bab148bf9f91d31ec.svg",
+    "index.html": "/My-React-Cv/index.html",
+    "static/media/Html.svg": "/My-React-Cv/static/media/Html.5f3c5eb7dd0a48848c3c66c6552079c2.svg",
+    "static/media/microsoft.svg": "/My-React-Cv/static/media/microsoft.deb36ec65c2cbaaa66352edab00a358c.svg",
+    "main.aa0cb18f.css.map": "/My-React-Cv/static/css/main.aa0cb18f.css.map",
+    "main.f80f2db5.js.map": "/My-React-Cv/static/js/main.f80f2db5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa0cb18f.css",
+    "static/js/main.f80f2db5.js"
+  ]
+}
