@@ -1,0 +1,2423 @@
+section{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.first-section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.first-section-1{
+    width: 60%;
+    padding-top: 6rem;
+    background: #F6F8FE;
+}
+.first-section-1 .hi{
+    padding-left: 6rem;
+    padding-bottom: 6rem;
+    padding-top: 7rem;
+}
+.first-section-1 h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    color: #2351DC;
+    
+
+}
+.first-section-1 h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 11px;
+    color: #2351DC;
+
+}
+.first-section-1 p{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    padding-right: 30%;
+}
+.first-section-1 img{
+    width: 2.5rem;
+    padding-right: 2%;
+}
+.first-section-2{
+    width: 40%;
+    background: #F6F8FE;
+}
+.first-section-2 img{
+    width: auto;
+    height: 100vh;
+}
+/* second section */
+#second-section{
+    /* background: #f1d7f0c9; */
+    height: 40vh;
+    padding-top: 3rem;
+}
+#second-section h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1rem;
+
+}
+#second-section p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 35%;
+    color: #4D4D4D;
+
+}
+/* skill section */
+#skill-section{
+    height: 80vh;
+    padding: 4rem 5% 0;
+    width: 90%;
+    
+    background: #F6F8FE;
+}
+#skill-section h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skill-section h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    justify-content: center;
+}
+/* html sec */
+.html{
+    display: flex;  
+    width: 45%;
+    gap: 5%;
+    margin-bottom: 3rem;
+}
+.html1{
+    display: flex;
+    width: 80%;
+}
+.html img{
+    width: 20%;
+    /* margin-right: 2rem; */
+}
+.html-g{
+    width: 100%;
+}
+.html-g h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+.html1 div{
+    background: #2351DC;
+    height: 6px;
+    width: 50%;
+    margin-top: 1rem;
+
+}
+.html1 p{
+    height: 6px;
+    width: 50%;
+    background-color: #D3DCF8;
+}
+
+/* javascript sec */
+.javascript{
+    display: flex;  
+    width: 45%;
+    gap: 5%;
+    margin-bottom: 3rem;
+}
+.javascript1{
+    display: flex;
+    width: 80%;
+}
+.javascript img{
+    width: 20%;
+    /* margin-right: 2rem; */
+}
+.javascript-g{
+    width: 100%;
+}
+.javascript-g h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+.javascript1 div{
+    background: #2351DC;
+    height: 6px;
+    width: 5%;
+    margin-top: 1rem;
+
+}
+.javascript p{
+    height: 6px;
+    width: 95%;
+    background-color: #D3DCF8;
+}
+
+/*microsoftsec */
+.microsoft{
+    display: flex;  
+    width: 45%;
+    gap: 5%;
+}
+.microsoft1{
+    display: flex;
+    width: 80%;
+}
+.microsoft img{
+    width: 20%;
+    /* margin-right: 2rem; */
+}
+.microsoft-g{
+    width: 100%;
+}
+.microsoft-g h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+.microsoft1 div{
+    background: #2351DC;
+    height: 6px;
+    width: 60%;
+    margin-top: 1rem;
+
+}
+.microsoft p{
+    height: 6px;
+    width: 40%;
+    background-color: #D3DCF8;
+}
+
+/*wordpress sec */
+.wordpress{
+    display: flex;  
+    width: 45%;
+    gap: 5%;
+}
+.wordpress1{
+    display: flex;
+    width: 80%;
+}
+.wordpress img{
+    width: 20%;
+    /* margin-right: 2rem; */
+}
+.wordpress-g{
+    width: 100%;
+}
+.wordpress-g h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+}
+.wordpress1 div{
+    background: #2351DC;
+    height: 6px;
+    width: 30%;
+    margin-top: 1rem;
+
+}
+.wordpress p{
+    height: 6px;
+    width: 70%;
+    background-color: #D3DCF8;
+}
+
+/* third section */
+.third-section{
+    height: 50vh;
+    padding-top: 3rem;
+    /* background: #f1d7f0c9; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.third-section h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 16px;
+    text-align: center;
+   
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem 0;
+}
+.edu h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+}
+.edu h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 12px;
+}
+.edu p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+}
+/* fourth section */
+#fourth-section{
+    height: 45vh;
+    background: #F6F8FE;
+    padding: 3rem 3rem 0;
+}
+#fourth-section h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 16px;
+    
+    
+}
+.fourth-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    padding-top: 0rem;
+}
+.media{
+    padding-top: 1.3rem;
+}
+.soc-media{
+    display: flex;
+    gap: 1rem;
+}
+.soc-media p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+.soc-media img{
+    width: 2.5rem;
+    margin-top: 0.2rem;
+}
+.email{
+    display: flex;
+    gap: 1rem;
+}
+.email img{
+    width: 1.5rem;
+}
+.email p{
+    color: #737373;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+}
+.email p:first-child{
+    color: #000000;
+    padding-top: 1.7rem;
+}
+/* fifth section */
+#fifth-section{
+    height: 35vh;
+    background: #07102C;
+    color: #FFFFFF;
+    padding: 2rem;
+}
+.jo{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    padding-top: 2rem;
+}
+#fifth-section span{
+    height: 0.1px;
+    width: 30%;
+    border: 0.2px solid  #FFFFFF;
+    margin-top: 2rem;
+
+}
+.fifth-section h1{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+#fifth-section .icons{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    padding-top: 1rem;
+}
+.icons img{
+    width: 2.2rem;
+}
+#fifth-section p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 1rem;
+    
+}
+/* smaller desktop */
+@media screen and (min-width: 955px) and (max-width: 1181px){
+    section{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+    }
+    .first-section{
+        display: flex;
+        width: 100%;
+        height: 80vh;
+    }
+    .first-section-1{
+        width: 60%;
+        padding-top: 6rem;
+        background: #F6F8FE;
+    }
+    .first-section-1 .hi{
+        padding-left: 6rem;
+        padding-bottom: 6rem;
+        padding-top: 7rem;
+    }
+    .first-section-1 h5{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 29px;
+        color: #2351DC;
+        
+    
+    }
+    .first-section-1 h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 11px;
+        color: #2351DC;
+    
+    }
+    .first-section-1 p{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 49px;
+        padding-right: 30%;
+    }
+    .first-section-1 img{
+        width: 2.5rem;
+        padding-right: 2%;
+    }
+    .first-section-2{
+        width: 40%;
+        background: #F6F8FE;
+    }
+    .first-section-2 img{
+        width: auto;
+        height: 80vh;
+    }
+    /* second section */
+    #second-section{
+        /* background: #f1d7f0c9; */
+        height: 30vh;
+        padding-top: 3rem;
+    }
+    #second-section h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 1rem;
+    
+    }
+    #second-section p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        padding: 0 30%;
+        color: #4D4D4D;
+    
+    }
+    /* skill section */
+    #skill-section{
+        height: 60vh;
+        padding: 4rem 5% 0;
+        width: 90%;
+        
+        background: #F6F8FE;
+    }
+    #skill-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 32px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #skill-section h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #4D4D4D;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2rem;
+        justify-content: center;
+    }
+    /* html sec */
+    .html{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+        margin-bottom: 3rem;
+    }
+    .html1{
+        display: flex;
+        width: 80%;
+    }
+    .html img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .html-g{
+        width: 100%;
+    }
+    .html-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .html1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 50%;
+        margin-top: 1rem;
+    
+    }
+    .html1 p{
+        height: 6px;
+        width: 50%;
+        background-color: #D3DCF8;
+    }
+    
+    /* javascript sec */
+    .javascript{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+        margin-bottom: 3rem;
+    }
+    .javascript1{
+        display: flex;
+        width: 80%;
+    }
+    .javascript img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .javascript-g{
+        width: 100%;
+    }
+    .javascript-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .javascript1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 5%;
+        margin-top: 1rem;
+    
+    }
+    .javascript p{
+        height: 6px;
+        width: 95%;
+        background-color: #D3DCF8;
+    }
+    
+    /*microsoftsec */
+    .microsoft{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+    }
+    .microsoft1{
+        display: flex;
+        width: 80%;
+    }
+    .microsoft img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .microsoft-g{
+        width: 100%;
+    }
+    .microsoft-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .microsoft1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 60%;
+        margin-top: 1rem;
+    
+    }
+    .microsoft p{
+        height: 6px;
+        width: 40%;
+        background-color: #D3DCF8;
+    }
+    
+    /*wordpress sec */
+    .wordpress{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+    }
+    .wordpress1{
+        display: flex;
+        width: 80%;
+    }
+    .wordpress img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .wordpress-g{
+        width: 100%;
+    }
+    .wordpress-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .wordpress1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 30%;
+        margin-top: 1rem;
+    
+    }
+    .wordpress p{
+        height: 6px;
+        width: 70%;
+        background-color: #D3DCF8;
+    }
+    
+    /* third section */
+    .third-section{
+        height: 35vh;
+        padding-top: 3rem;
+        /* background: #f1d7f0c9; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .third-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 16px;
+        text-align: center;
+       
+    }
+    .edu{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 4rem 0;
+    }
+    .edu h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 16px;
+    }
+    .edu h4{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 12px;
+    }
+    .edu p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 12px;
+    }
+    /* fourth section */
+    #fourth-section{
+        height: 35vh;
+        background: #F6F8FE;
+        padding: 3rem 3rem 0;
+    }
+    #fourth-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 16px;
+        
+        
+    }
+    .fourth-1{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3rem;
+        padding-top: 0rem;
+    }
+    .media{
+        padding-top: 1.3rem;
+    }
+    .soc-media{
+        display: flex;
+        gap: 1rem;
+    }
+    .soc-media p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .soc-media img{
+        width: 2.5rem;
+        margin-top: 0.2rem;
+    }
+    .email{
+        display: flex;
+        gap: 1rem;
+    }
+    .email img{
+        width: 1.5rem;
+    }
+    .email p{
+        color: #737373;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 12px;
+    
+    }
+    .email p:first-child{
+        color: #000000;
+        padding-top: 1.7rem;
+    }
+    /* fifth section */
+    #fifth-section{
+        height: 30vh;
+        background: #07102C;
+        color: #FFFFFF;
+        padding: 2rem;
+    }
+    .jo{
+        display: flex;
+        gap: 1%;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    #fifth-section span{
+        height: 0.1px;
+        width: 30%;
+        border: 0.2px solid  #FFFFFF;
+        margin-top: 2.1rem;
+    
+    }
+    .fifth-section h1{
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    }
+    #fifth-section .icons{
+        display: flex;
+        justify-content: center;
+        gap: 1%;
+        padding-top: 1rem;
+    }
+    .icons img{
+        width: 2.2rem;
+    }
+    #fifth-section p{
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 1rem;
+        
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 500px) and (max-width: 954px){
+    section{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+    }
+    .first-section{
+        display: flex;
+        width: 100%;
+        height: 60vh;
+    }
+    .first-section-1{
+        width: 60%;
+        padding-top: 6rem;
+        background: #F6F8FE;
+    }
+    .first-section-1 .hi{
+        padding-left: 3rem;
+        padding-bottom: 6rem;
+        padding-top: 2rem;
+    }
+    .first-section-1 h5{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #2351DC;
+        
+    
+    }
+    .first-section-1 h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 11px;
+        color: #2351DC;
+    
+    }
+    .first-section-1 p{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 49px;
+        padding-right: 15%;
+    }
+    .first-section-1 img{
+        width: 2.5rem;
+        padding-right: 2%;
+    }
+    .first-section-2{
+        width: 40%;
+        background: #F6F8FE;
+    }
+    .first-section-2 img{
+        width: auto;
+        height: 60vh;
+    }
+    /* second section */
+    #second-section{
+        /* background: #f1d7f0c9; */
+        height: 30vh;
+        padding-top: 1.5rem;
+    }
+    #second-section h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 1rem;
+    
+    }
+    #second-section p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        padding: 0 25%;
+        color: #4D4D4D;
+    
+    }
+    /* skill section */
+    #skill-section{
+        height: 55vh;
+        padding: 3rem 5% 0;
+        width: 90%;
+        
+        background: #F6F8FE;
+    }
+    #skill-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 32px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #skill-section h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #4D4D4D;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        justify-content: center;
+    }
+    /* html sec */
+    .html{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .html1{
+        display: flex;
+        width: 80%;
+    }
+    .html img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .html-g{
+        width: 100%;
+    }
+    .html-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .html1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 50%;
+        margin-top: 1rem;
+    
+    }
+    .html1 p{
+        height: 6px;
+        width: 50%;
+        background-color: #D3DCF8;
+    }
+    
+    /* javascript sec */
+    .javascript{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .javascript1{
+        display: flex;
+        width: 80%;
+    }
+    .javascript img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .javascript-g{
+        width: 100%;
+    }
+    .javascript-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .javascript1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 5%;
+        margin-top: 1rem;
+    
+    }
+    .javascript p{
+        height: 6px;
+        width: 95%;
+        background-color: #D3DCF8;
+    }
+    
+    /*microsoftsec */
+    .microsoft{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+    }
+    .microsoft1{
+        display: flex;
+        width: 80%;
+    }
+    .microsoft img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .microsoft-g{
+        width: 100%;
+    }
+    .microsoft-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .microsoft1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 60%;
+        margin-top: 1rem;
+    
+    }
+    .microsoft p{
+        height: 6px;
+        width: 40%;
+        background-color: #D3DCF8;
+    }
+    
+    /*wordpress sec */
+    .wordpress{
+        display: flex;  
+        width: 45%;
+        gap: 5%;
+    }
+    .wordpress1{
+        display: flex;
+        width: 80%;
+    }
+    .wordpress img{
+        width: 20%;
+        /* margin-right: 2rem; */
+    }
+    .wordpress-g{
+        width: 100%;
+    }
+    .wordpress-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .wordpress1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 30%;
+        margin-top: 1rem;
+    
+    }
+    .wordpress p{
+        height: 6px;
+        width: 70%;
+        background-color: #D3DCF8;
+    }
+    
+    /* third section */
+    .third-section{
+        height: 30vh;
+        padding-top: 3rem;
+        /* background: #f1d7f0c9; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .third-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 16px;
+        text-align: center;
+       
+    }
+    .edu{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem 0;
+    }
+    .edu h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .edu h4{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .edu p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+    }
+    /* fourth section */
+    #fourth-section{
+        height: 30vh;
+        background: #F6F8FE;
+        padding: 3rem 2rem 0;
+    }
+    #fourth-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 10px;
+        
+        
+    }
+    .fourth-1{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0rem;
+        padding-top: 0rem;
+        gap: 1.5%;
+    }
+    .media{
+        padding-top: 0.7rem;
+        width: 30%;
+    }
+    .soc-media{
+        display: flex;
+        gap: 1rem;
+    }
+    .soc-media p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .soc-media img{
+        width: 1.8rem;
+        margin-top: 0.7rem;
+    }
+    .email{
+        display: flex;
+        gap: 0.5rem;
+    }
+    .email img{
+        width: 1.5rem;
+        margin-top: -2.5rem;
+    }
+    .email p{
+        color: #737373;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 12px;
+    
+    }
+    .email p:first-child{
+        color: #000000;
+        padding-top: 1rem;
+    }
+    /* fifth section */
+    #fifth-section{
+        height: 25vh;
+        background: #07102C;
+        color: #FFFFFF;
+        padding: 1rem;
+    }
+    .jo{
+        display: flex;
+        gap: 1%;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    #fifth-section span{
+        height: 0.1px;
+        width: 30%;
+        border: 0.2px solid  #FFFFFF;
+        margin-top: 2.1rem;
+    
+    }
+    .fifth-section h1{
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    }
+    #fifth-section .icons{
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+        padding-top: 1rem;
+    }
+    .icons img{
+        width: 2rem;
+    }
+    #fifth-section p{
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 0.5rem;
+        
+    }
+}
+
+/* tablet 2 */
+@media screen and (min-width: 0px) and (max-width: 711px){
+    section{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+    }
+    .first-section{
+        display: flex;
+        width: 100%;
+        height: 55vh;
+    }
+    .first-section-1{
+        width: 60%;
+        padding-top: 6rem;
+        background: #F6F8FE;
+    }
+    .first-section-1 .hi{
+        padding-left: 2rem;
+        padding-bottom: 6rem;
+        padding-top: 2rem;
+    }
+    .first-section-1 h5{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 29px;
+        color: #2351DC;
+        
+    
+    }
+    .first-section-1 h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 11px;
+        color: #2351DC;
+    
+    }
+    .first-section-1 p{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 29px;
+        padding-right: 5%;
+    }
+    .first-section-1 img{
+        width: 2rem;
+        padding-right: 2%;
+    }
+    .first-section-2{
+        width: 40%;
+        background: #F6F8FE;
+    }
+    .first-section-2 img{
+        width: 80%;
+        height: auto;
+        margin-top: 6rem;
+        border-radius: 12px;
+    }
+    /* second section */
+    #second-section{
+        /* background: #f1d7f0c9; */
+        height: 25vh;
+        padding-top: 1.5rem;
+    }
+    #second-section h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 1rem;
+    
+    }
+    #second-section p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        text-align: center;
+        padding: 0 20%;
+        color: #4D4D4D;
+    
+    }
+    /* skill section */
+    #skill-section{
+        height: 50vh;
+        padding: 3rem 5% 0;
+        width: 90%;
+        
+        background: #F6F8FE;
+    }
+    #skill-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 32px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #skill-section h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 28px;
+        color: #4D4D4D;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        justify-content: center;
+    }
+    /* html sec */
+    .html{
+        display: flex;  
+        width: 50%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .html1{
+        display: flex;
+        width: 80%;
+    }
+    .html img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .html-g{
+        width: 100%;
+    }
+    .html-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .html1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 50%;
+        margin-top: 1rem;
+    
+    }
+    .html1 p{
+        height: 6px;
+        width: 50%;
+        background-color: #D3DCF8;
+    }
+    
+    /* javascript sec */
+    .javascript{
+        display: flex;  
+        width: 50%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .javascript1{
+        display: flex;
+        width: 80%;
+    }
+    .javascript img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .javascript-g{
+        width: 100%;
+    }
+    .javascript-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .javascript1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 5%;
+        margin-top: 1rem;
+    
+    }
+    .javascript p{
+        height: 6px;
+        width: 95%;
+        background-color: #D3DCF8;
+    }
+    
+    /*microsoftsec */
+    .microsoft{
+        display: flex;  
+        width: 50%;
+        gap: 5%;
+    }
+    .microsoft1{
+        display: flex;
+        width: 80%;
+    }
+    .microsoft img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .microsoft-g{
+        width: 100%;
+    }
+    .microsoft-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .microsoft1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 60%;
+        margin-top: 1rem;
+    
+    }
+    .microsoft p{
+        height: 6px;
+        width: 40%;
+        background-color: #D3DCF8;
+    }
+    
+    /*wordpress sec */
+    .wordpress{
+        display: flex;  
+        width: 50%;
+        gap: 5%;
+    }
+    .wordpress1{
+        display: flex;
+        width: 80%;
+    }
+    .wordpress img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .wordpress-g{
+        width: 100%;
+    }
+    .wordpress-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .wordpress1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 30%;
+        margin-top: 1rem;
+    
+    }
+    .wordpress p{
+        height: 6px;
+        width: 70%;
+        background-color: #D3DCF8;
+    }
+    
+    /* third section */
+    .third-section{
+        height: 65vh;
+        padding-top: 2rem;
+        /* background: #f1d7f0c9; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .third-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 16px;
+        text-align: center;
+        color: #2351DC;;
+       
+    }
+    .edu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 4rem 0;
+        gap: 1rem;
+    }
+    .edu h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 16px;
+    }
+    .edu h4{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 14px;
+    }
+    .edu p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 12px;
+    }
+    /* fourth section */
+    #fourth-section{
+        height: 50vh;
+        background: #F6F8FE;
+        padding: 3rem 2rem 0;
+    }
+    #fourth-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 10px;
+        
+        
+    }
+    .fourth-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 0rem;
+        padding-top: 0rem;
+        gap: 1.5%;
+    }
+    .media{
+        padding-top: 0.5rem;
+        width: 100%;
+    }
+    .soc-media{
+        display: flex;
+        gap: 1rem;
+    }
+    .soc-media p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .soc-media img{
+        width: 1.8rem;
+        margin-top: 0.7rem;
+    }
+    .email{
+        display: flex;
+        gap: 1rem;
+    }
+    .email img{
+        width: 1.5rem;
+        margin-top: 0rem;
+    }
+    .email p{
+        color: #737373;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 12px;
+    
+    }
+    .email p:first-child{
+        color: #000000;
+        padding-top: 1rem;
+    }
+    /* fifth section */
+    #fifth-section{
+        height: 25vh;
+        background: #07102C;
+        color: #FFFFFF;
+        padding: 1rem;
+    }
+    .jo{
+        display: flex;
+        gap: 1%;
+        justify-content: center;
+        padding-top: 0rem;
+    }
+    #fifth-section span{
+        height: 0.1px;
+        width: 30%;
+        border: 0.2px solid  #FFFFFF;
+        margin-top: 2.1rem;
+    
+    }
+    .fifth-section h1{
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    }
+    #fifth-section .icons{
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+        padding-top: 1rem;
+    }
+    .icons img{
+        width: 1.8rem;
+    }
+    #fifth-section p{
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 0.5rem;
+        
+    }
+}
+
+/* mobile */
+@media screen and (min-width: 370px) and (max-width: 499px){
+    section{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+    }
+    .first-section{
+        display: flex;
+        width: 100%;
+        height: 40vh;
+    }
+    .first-section-1{
+        width: 70%;
+        padding-top: 5rem;
+        background: #F6F8FE;
+    }
+    .first-section-1 .hi{
+        padding-left: 2rem;
+        padding-bottom: 6rem;
+        padding-top: 1rem;
+    }
+    .first-section-1 h5{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #2351DC;
+        
+    
+    }
+    .first-section-1 h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 5px;
+        color: #2351DC;
+    
+    }
+    .first-section-1 p{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 24px;
+        padding-right: 5%;
+    }
+    .first-section-1 img{
+        width: 1.6rem;
+        padding-right: 2%;
+    }
+    .first-section-2{
+        width: 30%;
+        background: #F6F8FE;
+    }
+    .first-section-2 img{
+        width: 90%;
+        height: auto;
+        margin-top: 6rem;
+        border-radius: 12px;
+    }
+    /* second section */
+    #second-section{
+        /* background: #f1d7f0c9; */
+        height: 20vh;
+        padding-top: 1rem;
+    }
+    #second-section h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 1rem;
+    
+    }
+    #second-section p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        padding: 0 15%;
+        color: #4D4D4D;
+    
+    }
+    /* skill section */
+    #skill-section{
+        height: 80vh;
+        padding: 3rem 5% 0;
+        width: 90%;
+        
+        background: #F6F8FE;
+    }
+    #skill-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #skill-section h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 28px;
+        color: #4D4D4D;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding-top: 1rem;
+        justify-content: center;
+    }
+    /* html sec */
+    .html{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .html1{
+        display: flex;
+        width: 80%;
+    }
+    .html img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .html-g{
+        width: 100%;
+    }
+    .html-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .html1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 50%;
+        margin-top: 1rem;
+    
+    }
+    .html1 p{
+        height: 6px;
+        width: 50%;
+        background-color: #D3DCF8;
+    }
+    
+    /* javascript sec */
+    .javascript{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .javascript1{
+        display: flex;
+        width: 80%;
+    }
+    .javascript img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .javascript-g{
+        width: 100%;
+    }
+    .javascript-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .javascript1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 5%;
+        margin-top: 1rem;
+    
+    }
+    .javascript p{
+        height: 6px;
+        width: 95%;
+        background-color: #D3DCF8;
+    }
+    
+    /*microsoftsec */
+    .microsoft{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+    }
+    .microsoft1{
+        display: flex;
+        width: 80%;
+    }
+    .microsoft img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .microsoft-g{
+        width: 100%;
+    }
+    .microsoft-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .microsoft1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 60%;
+        margin-top: 1rem;
+    
+    }
+    .microsoft p{
+        height: 6px;
+        width: 40%;
+        background-color: #D3DCF8;
+    }
+    
+    /*wordpress sec */
+    .wordpress{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+    }
+    .wordpress1{
+        display: flex;
+        width: 80%;
+    }
+    .wordpress img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .wordpress-g{
+        width: 100%;
+    }
+    .wordpress-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .wordpress1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 30%;
+        margin-top: 1rem;
+    
+    }
+    .wordpress p{
+        height: 6px;
+        width: 70%;
+        background-color: #D3DCF8;
+    }
+    
+    /* third section */
+    .third-section{
+        height: 55vh;
+        padding-top: 2rem;
+        /* background: #f1d7f0c9; */
+        font-family: 'Roboto';
+    }
+    .third-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 16px;
+        text-align: center;
+        color: #2351DC;;
+       
+    }
+    .edu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 4rem 0;
+        gap: 0.5rem;
+    }
+    .edu h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 16px;
+    }
+    .edu h4{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 10px;
+    }
+    .edu p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 2px;
+    }
+    /* fourth section */
+    #fourth-section{
+        height: 47vh;
+        background: #F6F8FE;
+        padding: 1rem 2rem 0;
+    }
+    #fourth-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 10px;
+        
+        
+    }
+    .fourth-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 0rem;
+        padding-top: 0rem;
+        gap: 1.5%;
+    }
+    .media{
+        padding-top: 0.5rem;
+        width: 100%;
+    }
+    .soc-media{
+        display: flex;
+        gap: 1rem;
+    }
+    .soc-media p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .soc-media img{
+        width: 1.8rem;
+        margin-top: 0.7rem;
+    }
+    .email{
+        display: flex;
+        gap: 1rem;
+    }
+    .email img{
+        width: 1.5rem;
+        margin-top: 0rem;
+    }
+    .email p{
+        color: #737373;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 12px;
+    
+    }
+    .email p:first-child{
+        color: #000000;
+        padding-top: 1rem;
+    }
+    /* fifth section */
+    #fifth-section{
+        height: 20vh;
+        background: #07102C;
+        color: #FFFFFF;
+        padding: 1rem 0.5rem;
+    }
+    .jo{
+        display: flex;
+        gap: 2%;
+        justify-content: center;
+        padding-top: 0rem;
+    }
+    #fifth-section span{
+        height: 0.1px;
+        width: 20%;
+        border: 0.2px solid  #FFFFFF;
+        margin-top: 1.5rem;
+    
+    }
+    .jo-h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+    #fifth-section .icons{
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+        padding-top: 1rem;
+    }
+    .icons img{
+        width: 1.6rem;
+    }
+    #fifth-section p{
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 0.5rem;
+        
+    }
+}
+
+/* mobile */
+@media screen and (min-width: 0px) and (max-width: 369px){
+    section{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+    }
+    .first-section{
+        display: flex;
+        width: 100%;
+        height: 40vh;
+    }
+    .first-section-1{
+        width: 70%;
+        padding-top: 5rem;
+        background: #F6F8FE;
+    }
+    .first-section-1 .hi{
+        padding-left: 1rem;
+        padding-bottom: 6rem;
+        padding-top: 1rem;
+    }
+    .first-section-1 h5{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #2351DC;
+        
+    
+    }
+    .first-section-1 h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 5px;
+        color: #2351DC;
+    
+    }
+    .first-section-1 p{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 24px;
+        padding-right: 2%;
+    }
+    .first-section-1 img{
+        width: 1.3rem;
+        padding-right: 2%;
+    }
+    .first-section-2{
+        width: 30%;
+        background: #F6F8FE;
+    }
+    .first-section-2 img{
+        width: 90%;
+        height: auto;
+        margin-top: 6rem;
+        border-radius: 12px;
+    }
+    /* second section */
+    #second-section{
+        /* background: #f1d7f0c9; */
+        height: 20vh;
+        padding-top: 1rem;
+    }
+    #second-section h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 1rem;
+    
+    }
+    #second-section p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        padding: 0 15%;
+        color: #4D4D4D;
+    
+    }
+    /* skill section */
+    #skill-section{
+        height: 80vh;
+        padding: 3rem 5% 0;
+        width: 90%;
+        
+        background: #F6F8FE;
+    }
+    #skill-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #skill-section h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #4D4D4D;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding-top: 1rem;
+        justify-content: center;
+    }
+    /* html sec */
+    .html{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .html1{
+        display: flex;
+        width: 80%;
+    }
+    .html img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .html-g{
+        width: 100%;
+    }
+    .html-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .html1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 50%;
+        margin-top: 1rem;
+    
+    }
+    .html1 p{
+        height: 6px;
+        width: 50%;
+        background-color: #D3DCF8;
+    }
+    
+    /* javascript sec */
+    .javascript{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+        margin-bottom: 1rem;
+    }
+    .javascript1{
+        display: flex;
+        width: 80%;
+    }
+    .javascript img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .javascript-g{
+        width: 100%;
+    }
+    .javascript-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .javascript1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 5%;
+        margin-top: 1rem;
+    
+    }
+    .javascript p{
+        height: 6px;
+        width: 95%;
+        background-color: #D3DCF8;
+    }
+    
+    /*microsoftsec */
+    .microsoft{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+    }
+    .microsoft1{
+        display: flex;
+        width: 80%;
+    }
+    .microsoft img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .microsoft-g{
+        width: 100%;
+    }
+    .microsoft-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .microsoft1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 60%;
+        margin-top: 1rem;
+    
+    }
+    .microsoft p{
+        height: 6px;
+        width: 40%;
+        background-color: #D3DCF8;
+    }
+    
+    /*wordpress sec */
+    .wordpress{
+        display: flex;  
+        width: 100%;
+        gap: 5%;
+    }
+    .wordpress1{
+        display: flex;
+        width: 80%;
+    }
+    .wordpress img{
+        width: 25%;
+        /* margin-right: 2rem; */
+    }
+    .wordpress-g{
+        width: 100%;
+    }
+    .wordpress-g h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .wordpress1 div{
+        background: #2351DC;
+        height: 6px;
+        width: 30%;
+        margin-top: 1rem;
+    
+    }
+    .wordpress p{
+        height: 6px;
+        width: 70%;
+        background-color: #D3DCF8;
+    }
+    
+    /* third section */
+    .third-section{
+        height: 50vh;
+        padding-top: 2rem;
+        /* background: #f1d7f0c9; */
+        font-family: 'Roboto';
+    }
+    .third-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 16px;
+        text-align: center;
+        color: #2351DC;;
+       
+    }
+    .edu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 3rem 0;
+        gap: 0.5rem;
+    }
+    .edu h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 16px;
+    }
+    .edu h4{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .edu p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 2px;
+    }
+    /* fourth section */
+    #fourth-section{
+        height: 47vh;
+        background: #F6F8FE;
+        padding: 1rem 2rem 0;
+    }
+    #fourth-section h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 10px;
+        
+        
+    }
+    .fourth-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 0rem;
+        padding-top: 0rem;
+        gap: 1.5%;
+    }
+    .media{
+        padding-top: 0.5rem;
+        width: 100%;
+    }
+    .soc-media{
+        display: flex;
+        gap: 1rem;
+    }
+    .soc-media p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .soc-media img{
+        width: 1.5rem;
+        margin-top: 0.7rem;
+    }
+    .email{
+        display: flex;
+        gap: 1rem;
+    }
+    .email img{
+        width: 1.5rem;
+        margin-top: 0rem;
+    }
+    .email p{
+        color: #737373;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 12px;
+    
+    }
+    .email p:first-child{
+        color: #000000;
+        padding-top: 1rem;
+    }
+    /* fifth section */
+    #fifth-section{
+        height: 20vh;
+        background: #07102C;
+        color: #FFFFFF;
+        padding: 1rem 0.5rem;
+    }
+    .jo{
+        display: flex;
+        gap: 2%;
+        justify-content: center;
+        padding-top: 0rem;
+    }
+    #fifth-section span{
+        height: 0.1px;
+        width: 20%;
+        border: 0.2px solid  #FFFFFF;
+        margin-top: 1.3rem;
+    
+    }
+    .jo-h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    #fifth-section .icons{
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        padding-top: 1rem;
+    }
+    .icons img{
+        width: 1.5rem;
+    }
+    #fifth-section p{
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 0.5rem;
+        
+    }
+}
