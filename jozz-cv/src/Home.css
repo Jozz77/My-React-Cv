@@ -373,7 +373,8 @@ section{
 
 }
 .fifth-section h1{
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    text-decoration: none;
+
 }
 #fifth-section .icons{
     display: flex;
@@ -770,7 +771,8 @@ section{
     
     }
     .fifth-section h1{
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        text-decoration: none;
+
     }
     #fifth-section .icons{
         display: flex;
@@ -1172,7 +1174,8 @@ section{
     
     }
     .fifth-section h1{
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        text-decoration: none;
+
     }
     #fifth-section .icons{
         display: flex;
@@ -1580,7 +1583,7 @@ section{
     
     }
     .fifth-section h1{
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        text-decoration: none;
     }
     #fifth-section .icons{
         display: flex;
