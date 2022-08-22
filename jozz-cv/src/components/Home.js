@@ -152,7 +152,7 @@ export default function Home() {
         <div id='fifth-section'>
             <div className='jo'>
             <span></span>
-            <h1 className='jo-h1'>Jonathan Mmadu</h1>
+            <h1 className='jo-h1    '>Jonathan Mmadu</h1>
             <span></span>
             </div>
 
